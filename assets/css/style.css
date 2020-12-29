@@ -811,6 +811,46 @@ section .container {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+/*animacion ojos*/
+.avatar{
+    width:400px;
+    height:400px;
+}
+.avatar img{
+    width: 100%;
+}
+.eyes{
+    position:relative;
+    top:102%;
+    transform:translatey(-1070%);
+    width:100%;
+    text-align: center;
+}
+.eye{
+    width:20px;
+    height:20px;
+    background:#fff;
+    display:inline-block;
+    margin:0.5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius:50%;
+    position:relative;
+    overflow:hidden;
+}
+.ball{
+    width:10px;
+    height:10px;
+    background:#000;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:50%;
+    border: 3px solid #333;
+  
+}
+
 .contact .info-box {
   color: #444444;
   padding: 20px;
